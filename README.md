@@ -1,6 +1,6 @@
 # Financial Fraud Detection Analytics
 
-A portfolio-ready end-to-end analytics project built on the PaySim transaction simulation dataset to identify fraud patterns through data engineering, SQL analysis, and business intelligence dashboards.
+An end-to-end analytics project built on the PaySim transaction simulation dataset to identify fraud patterns through data engineering, SQL analysis, and business intelligence dashboards.
 
 ## 1) Project Overview
 
@@ -12,7 +12,7 @@ This repository demonstrates a practical fraud analytics pipeline:
 - visualize findings in Power BI dashboards
 - prepare for future ML-based fraud prediction with Streamlit
 
-The project is designed for data analyst and data science interview discussions, emphasizing reproducibility, structured SQL analysis, and insight storytelling.
+The project emphasizes reproducibility, structured SQL analysis, and insight storytelling.
 
 ## 2) Architecture Diagram (Text-Based)
 
@@ -60,7 +60,7 @@ What it does:
 - computes balance consistency error metrics
 - exports cleaned data to `data/processed/clean_transactions.csv`
 
-Optional enhancement script: `python/feature_engineering.py`
+Enhancement script: `python/feature_engineering.py`
 - adds model-oriented numerical indicators for future supervised learning.
 
 ## 5) Database Setup (PostgreSQL)
@@ -101,7 +101,7 @@ Three dashboard views are documented in `dashboards/dashboard_analysis.md`.
 
 ## 8) Key Insights
 
-- Fraud rate is very low overall (typically around 0.13% in PaySim-style distributions), highlighting severe class imbalance.
+- Fraud rate is very low overall (around 0.13%), highlighting severe class imbalance.
 - Fraud events are primarily concentrated in transfer and cash-out transaction channels.
 - Fraud occurrence often clusters in specific hours, enabling time-aware monitoring controls.
 - High-value transactions and balance inconsistencies provide strong risk indicators for fraud triage.
