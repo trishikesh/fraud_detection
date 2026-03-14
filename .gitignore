@@ -1,0 +1,30 @@
+# Python cache and environment
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build and test
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Local runtime artifacts
+*.log
+*.tmp
+
+# Model artifacts (keep placeholder only if needed)
+models/*.joblib
+models/*.onnx
